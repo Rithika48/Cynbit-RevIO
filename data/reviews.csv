@@ -1,0 +1,17 @@
+
+review_id,date,branch,rating,review_text
+1,2026-11-01,Bengaluru,5,"Excellent service and very friendly staff"
+2,2026-11-01,Mumbai,1,"Very poor service and rude employees"
+3,2026-11-02,Delhi,2,"My delivery was delayed by three days"
+4,2026-11-02,Bengaluru,4,"Good product quality and fast delivery"
+5,2026-11-03,Mumbai,1,"The product arrived damaged and nobody helped"
+6,2026-11-03,Delhi,3,"The experience was average"
+7,2026-11-04,Bengaluru,1,"Terrible experience, I want a refund immediately"
+8,2026-11-04,Mumbai,5,"Amazing customer support and quick resolution"
+9,2026-11-05,Delhi,2,"The price is too high for this quality"
+10,2026-11-05,Bengaluru,1,"The staff was extremely rude and unprofessional"
+11,2026-11-06,Mumbai,2,"Delivery was late and the package was damaged"
+12,2026-11-06,Delhi,5,"Very satisfied with the service"
+13,2026-11-07,Bengaluru,4,"Helpful staff and good overall experience"
+14,2026-11-07,Mumbai,1,"I have complained three times and still no response"
+15,2026-11-08,Delhi,1,"Worst experience, I will never order again"

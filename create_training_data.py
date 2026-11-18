@@ -1,0 +1,49 @@
+
+import pandas as pd
+
+# Example reviews with manually assigned sentiment labels
+examples = [
+    ("Excellent service and friendly staff", "Positive"),
+    ("Amazing customer support", "Positive"),
+    ("The product quality is excellent", "Positive"),
+    ("Fast delivery and great packaging", "Positive"),
+    ("Very satisfied with the purchase", "Positive"),
+    ("The staff were helpful and polite", "Positive"),
+    ("Wonderful shopping experience", "Positive"),
+    ("The delivery arrived on time", "Positive"),
+    ("The product works perfectly", "Positive"),
+    ("Affordable price and good quality", "Positive"),
+
+    ("Very poor customer service", "Negative"),
+    ("The staff were rude and unhelpful", "Negative"),
+    ("The product arrived damaged", "Negative"),
+    ("Delivery was extremely late", "Negative"),
+    ("Terrible shopping experience", "Negative"),
+    ("I want a refund immediately", "Negative"),
+    ("The product quality is very bad", "Negative"),
+    ("Nobody responded to my complaint", "Negative"),
+    ("The price is too expensive", "Negative"),
+    ("Worst customer support ever", "Negative"),
+
+    ("The experience was average", "Neutral"),
+    ("The product is okay", "Neutral"),
+    ("Service was neither good nor bad", "Neutral"),
+    ("The delivery arrived yesterday", "Neutral"),
+    ("The store opens at nine", "Neutral"),
+    ("I received my order today", "Neutral"),
+    ("The packaging was standard", "Neutral"),
+    ("The product has three colors", "Neutral"),
+    ("The staff provided the receipt", "Neutral"),
+    ("The item matches its description", "Neutral")
+]
+
+df = pd.DataFrame(
+    examples,
+    columns=["review_text", "sentiment"]
+)
+
+df.to_csv("data/training_reviews.csv", index=False)
+
+print("Training dataset created successfully!")
+print("Total reviews:", len(df))
+print(df["sentiment"].value_counts())

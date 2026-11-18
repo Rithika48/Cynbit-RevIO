@@ -1,0 +1,21 @@
+review_id,date,branch,rating,review_text
+1,2026-11-01,Bengaluru,2,Delivery was late
+2,2026-11-01,Bengaluru,5,Excellent service
+3,2026-11-02,Bengaluru,2,Delivery was late
+4,2026-11-02,Bengaluru,5,Excellent service
+5,2026-11-03,Bengaluru,2,Delivery was late
+6,2026-11-03,Bengaluru,5,Excellent service
+7,2026-11-04,Bengaluru,2,Delivery was late
+8,2026-11-04,Bengaluru,5,Excellent service
+9,2026-11-05,Bengaluru,2,Delivery was late
+10,2026-11-05,Bengaluru,5,Excellent service
+11,2026-11-06,Bengaluru,2,Delivery was late
+12,2026-11-06,Bengaluru,5,Excellent service
+13,2026-11-07,Bengaluru,2,Delivery was late
+14,2026-11-07,Bengaluru,5,Excellent service
+15,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
+16,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
+17,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
+18,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
+19,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
+20,2026-11-08,Bengaluru,1,Very poor service and delayed delivery
